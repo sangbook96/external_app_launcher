@@ -22,7 +22,7 @@ class LaunchApp {
     return isAppInstalled;
   }
 
-  static Future<int> openApp(
+  static Future<String> openApp(
       {String? iosUrlScheme,
         String? androidPackageName,
         String? appStoreLink,
